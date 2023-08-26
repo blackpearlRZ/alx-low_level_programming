@@ -32,9 +32,10 @@ void rev_string(char *s)
 
 	i = lastChar;
 
-	for (i = lastChar ; i >= 0 ; i--)
+	for (i = lastChar ; i >= 0; i--)
 	{
 		_putchar(s[i]);
+
 	}
 	_putchar('\n');
 }
