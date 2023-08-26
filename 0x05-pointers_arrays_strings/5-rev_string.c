@@ -26,16 +26,12 @@ int _strlen(char *s)
 
 void rev_string(char *s)
 {
-	int i;
-	int length = _strlen(s);
-	int lastChar = length - 1;
+	int tmp, i, length = _strlen(s);
 
-	i = lastChar;
-
-	for (i = lastChar ; i >= 0; i--)
+	for (i = 0; i < length / 2; i++)
 	{
-		_putchar(s[i]);
-
+		tmp = *(s + i);
+		*(s + i) = *(s + length - 1 - i);
+		*(s + length - 1 - i) = tmp;
 	}
-	_putchar('\n');
 }
