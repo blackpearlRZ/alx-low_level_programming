@@ -11,7 +11,7 @@ int _atoi(char *s)
 	int a = 1;
 
 	do {
-		if (*s == '-'a)
+		if (*s == '-')
 			a *= -1;
 		else if (*s >= '0' && *s <= '9')
 			ch = (ch * 10) + (*s - '0');
