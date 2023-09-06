@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - print the result of multications ofs two numbers
  * @argc: argument count
