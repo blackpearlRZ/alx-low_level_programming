@@ -4,15 +4,18 @@
  * main - print the result of multications ofs two numbers
  * @argc: argument count
  * @argv: argument passed
- * Return: 1
+ * Return: the result of multiplication or 1
  */
 int main(int argc, char **argv)
 {
-	if (argc != 2)
+	if (argc != 3)
+	{
 		printf("Error\n");
+		return (1);
+	}
 	else
-		printf("%d\n", argv[1] * argv[2]);
-	return (1);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]);
+	return (0);
 
 }
 
