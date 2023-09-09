@@ -1,8 +1,5 @@
 # C Programming Fundamentals: Variables, Control Flow, and Loops
 
-## Summary:
-Embark on a journey into the core elements of C programming with this module. From grasping the intricacies of variables, arithmetic operations, and logical expressions to mastering control flow structures like "if" and "else" statements, as well as the power of loops, you'll lay a solid foundation for your C coding skills. By the end of this module, you'll be able to confidently manipulate variables, make decisions in your code, and create iterative processes that drive the functionality of your C programs.
-
 ## Learning Objectives:
 
 * Learn how to utilize arithmetic operators for numerical computations.
