@@ -7,7 +7,7 @@
  * @n: the first bytes of the memoey area
  * Return: pointer to the memory area s
  */
-chae *-memset(char *s, char *b, unsigned int n)
+char *_memset(char *s, char *b, unsigned int n)
 {
 	unsigned int i;
 
@@ -21,7 +21,7 @@ chae *-memset(char *s, char *b, unsigned int n)
 
 /**
  * _calloc - allocates memory for an array
- * @nmemeb: number of  elements of the array
+ * @nmemb: number of  elements of the array
  * @size: size of each element
  * Return: pointer to the allocated memory
  */
