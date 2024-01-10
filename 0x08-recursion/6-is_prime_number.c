@@ -4,7 +4,7 @@
  * find_prime - test if a  number is a prime
  * @x: number
  * @y: helper
- * Return 1 or 0
+ * Return: 1 or 0
  */
 
 int find_prime(int x, int y)
